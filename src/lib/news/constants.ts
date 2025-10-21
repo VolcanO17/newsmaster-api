@@ -320,89 +320,14 @@ export const newsSources: Source[] = [
   },
   // -------- Sports Feeds --------
   {
-    code: "SPORT-ESPN",
-    name: "ESPN",
-    url: "https://www.espn.com/espn/rss/news",
-  },
-  {
-    code: "SPORT-BBCSPORT",
-    name: "BBC Sport",
-    url: "http://feeds.bbci.co.uk/sport/rss.xml",
-  },
-  {
-    code: "SPORT-THEATHLETIC",
-    name: "The Athletic",
-    url: "https://theathletic.com/feed/",
-  },
-  {
-    code: "SPORT-SKYSPORTS",
-    name: "Sky Sports",
-    url: "https://www.skysports.com/rss/12040",
-  },
-  {
-    code: "SPORT-FOXSPORTS",
-    name: "Fox Sports",
-    url: "https://api.foxsports.com/v1/rss",
-  },
-  {
-    code: "SPORT-NFL",
-    name: "NFL News",
-    url: "https://www.nfl.com/rss/xml/gen/rss/news",
-  },
-  {
-    code: "SPORT-PREMIERLEAGUE",
-    name: "Premier League",
-    url: "https://www.premierleague.com/rss.xml",
-  },
-  {
-    code: "SPORT-FIFA",
-    name: "FIFA News",
-    url: "https://www.fifa.com/rss/index.xml",
-  },
-  {
-    code: "SPORT-TENNIS",
-    name: "ATP Tennis",
-    url: "https://www.atptour.com/en/rss/news.xml",
-  },
-  {
-    code: "SPORT-GOLF",
-    name: "PGA Tour",
-    url: "https://www.pgatour.com/rss/news.xml",
-  },
-  {
-    code: "SPORT-STARSPORTS",
-    name: "Star Sports",
-    url: "https://www.hotstar.com/rss/sports.xml",
-  },
-  {
-    code: "SPORT-SONYSPORTS",
-    name: "Sony Sports Network",
-    url: "https://www.sonyliv.com/rss/sports.xml",
-  },
-  {
-    code: "SPORT-DDSPORTS",
-    name: "DD Sports",
-    url: "https://www.ddsports.in/rss/news.xml",
-  },
-  {
-    code: "SPORT-AIRTS",
-    name: "All India Radio Sports",
-    url: "https://www.newsonair.com/rss/sports.xml",
-  },
-  {
-    code: "SPORT-INDIANSOCIAL",
-    name: "Indian Social Sports",
-    url: "https://www.indiansocial.in/rss/sports.xml",
-  },
-  {
     code: "SPORT-CRICBUZZ",
     name: "Cricbuzz",
     url: "https://www.cricbuzz.com/rss",
   },
   {
     code: "SPORT-ESPNCRIC",
-    name: "ESPN Cricket",
-    url: "https://www.espn.com/espn/rss/news",
+    name: "ESPN Cricinfo",
+    url: "https://www.espncricinfo.com/rss/content/story/feeds/0.xml",
   },
   {
     code: "SPORT-INDIANEXPRESSSPORTS",
@@ -417,12 +342,12 @@ export const newsSources: Source[] = [
   {
     code: "SPORT-HTSPORTS",
     name: "Hindustan Times Sports",
-    url: "https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml",
+    url: "https://www.hindustantimes.com/sports/rssfeed.xml",
   },
   {
     code: "SPORT-INDIATODAYSPORTS",
     name: "India Today Sports",
-    url: "https://www.indiatoday.in/rss/1206578",
+    url: "https://www.indiatoday.in/sports/rssfeeds/-2128673031.cms",
   },
   {
     code: "SPORT-ZEENEWS",
@@ -430,9 +355,49 @@ export const newsSources: Source[] = [
     url: "https://zeenews.india.com/rss/sports-news.xml",
   },
   {
-    code: "SPORT-INDIANSPORTS",
-    name: "Indian Sports News",
-    url: "https://www.indiansportsnews.com/feed/",
+    code: "SPORT-NDSPORTS",
+    name: "NDTV Sports",
+    url: "https://feeds.feedburner.com/ndtvnews-sports",
+  },
+  {
+    code: "SPORT-BUSINESSSTANDARDSPORTS",
+    name: "Business Standard Sports",
+    url: "https://www.business-standard.com/rss/sports-114.rss",
+  },
+  {
+    code: "SPORT-THEHINDUSPORTS",
+    name: "The Hindu Sports",
+    url: "https://www.thehindu.com/sport/rssfeeds/2640311/",
+  },
+  {
+    code: "SPORT-LIVEMINTSPORTS",
+    name: "Live Mint Sports",
+    url: "https://www.livemint.com/rss/sports",
+  },
+  {
+    code: "SPORT-ESPN",
+    name: "ESPN",
+    url: "https://www.espn.com/espn/rss/news",
+  },
+  {
+    code: "SPORT-BBCSPORT",
+    name: "BBC Sport",
+    url: "http://feeds.bbci.co.uk/sport/rss.xml",
+  },
+  {
+    code: "SPORT-PREMIERLEAGUE",
+    name: "Premier League",
+    url: "https://www.premierleague.com/rss.xml",
+  },
+  {
+    code: "SPORT-FIFA",
+    name: "FIFA",
+    url: "https://www.fifa.com/rss/index.xml",
+  },
+  {
+    code: "SPORT-TENNIS",
+    name: "ATP Tennis",
+    url: "https://www.atptour.com/en/rss/news.xml",
   },
   // -------- Technology Feeds --------
   {
@@ -581,42 +546,57 @@ export const newsSources: Source[] = [
     name: "Live Mint Markets",
     url: "https://www.livemint.com/rss/markets",
   },
+  {
+    code: "STOCK-INDIANEXPRESSFINANCE",
+    name: "Indian Express Finance",
+    url: "https://indianexpress.com/section/business/feed/",
+  },
+  {
+    code: "STOCK-HTFINANCE",
+    name: "Hindustan Times Finance",
+    url: "https://www.hindustantimes.com/business/rssfeed.xml",
+  },
+  {
+    code: "STOCK-ND",
+    name: "NDTV Profit",
+    url: "https://feeds.feedburner.com/ndtvprofit-latest",
+  },
+  {
+    code: "STOCK-BUSINESSLINE",
+    name: "Business Line",
+    url: "https://www.thehindubusinessline.com/markets/rssfeeds/1666513/",
+  },
+  {
+    code: "STOCK-FINANCIALEXPRESS",
+    name: "Financial Express",
+    url: "https://www.financialexpress.com/market/rssfeed.xml",
+  },
   // -------- Defense & Military Feeds --------
   // -------- Indian Defense Sources (Priority) --------
   {
-    code: "DEF-INDIA",
-    name: "Indian Ministry of Defence",
-    url: "https://www.mod.gov.in/rss",
+    code: "DEF-INDIANEXPRESS",
+    name: "Indian Express Defence",
+    url: "https://indianexpress.com/section/india/defence/feed/",
   },
   {
-    code: "DEF-INDIANARMY",
-    name: "Indian Army",
-    url: "https://indianarmy.nic.in/rss",
+    code: "DEF-THEHINDU",
+    name: "The Hindu Defence",
+    url: "https://www.thehindu.com/news/national/defence/rssfeeds/1658055/",
   },
   {
-    code: "DEF-INDIANNAVY",
-    name: "Indian Navy",
-    url: "https://indiannavy.nic.in/rss",
+    code: "DEF-HT",
+    name: "Hindustan Times Defence",
+    url: "https://www.hindustantimes.com/india-news/defence/rssfeed.xml",
   },
   {
-    code: "DEF-INDIANAF",
-    name: "Indian Air Force",
-    url: "https://indianairforce.nic.in/rss",
+    code: "DEF-ND",
+    name: "NDTV Defence",
+    url: "https://feeds.feedburner.com/ndtvnews-defence",
   },
   {
-    code: "DEF-DRDO",
-    name: "Defence Research and Development Organisation",
-    url: "https://www.drdo.gov.in/rss",
-  },
-  {
-    code: "DEF-BDL",
-    name: "Bharat Dynamics Limited",
-    url: "https://bdl-india.in/rss",
-  },
-  {
-    code: "DEF-BEL",
-    name: "Bharat Electronics Limited",
-    url: "https://www.bel-india.in/rss",
+    code: "DEF-BS",
+    name: "Business Standard Defence",
+    url: "https://www.business-standard.com/rss/defence-113.rss",
   },
   {
     code: "DEF-HAL",
@@ -627,46 +607,6 @@ export const newsSources: Source[] = [
     code: "DEF-MAZAGON",
     name: "Mazagon Dock Shipbuilders",
     url: "https://www.mazagondock.in/rss",
-  },
-  {
-    code: "DEF-GSL",
-    name: "Garden Reach Shipbuilders & Engineers",
-    url: "https://www.grse.in/rss",
-  },
-  {
-    code: "DEF-LT",
-    name: "Larsen & Toubro Defence",
-    url: "https://www.larsentoubro.com/rss/defence",
-  },
-  {
-    code: "DEF-TATA",
-    name: "Tata Advanced Systems",
-    url: "https://www.tataadvancedsystems.com/rss",
-  },
-  {
-    code: "DEF-REL",
-    name: "Reliance Defence",
-    url: "https://www.reliancedefence.com/rss",
-  },
-  {
-    code: "DEF-MAHINDRA",
-    name: "Mahindra Defence",
-    url: "https://www.mahindradefence.com/rss",
-  },
-  {
-    code: "DEF-ASH",
-    name: "Ashok Leyland Defence",
-    url: "https://www.ashokleyland.com/rss/defence",
-  },
-  {
-    code: "DEF-BEML",
-    name: "BEML Defence",
-    url: "https://www.bemlindia.in/rss/defence",
-  },
-  {
-    code: "DEF-OF",
-    name: "Ordnance Factory Board",
-    url: "https://ofb.gov.in/rss",
   },
   // -------- Other Defense Sources --------
   {
@@ -953,91 +893,6 @@ export const newsSources: Source[] = [
     code: "DEF-G20",
     name: "G20 Defense",
     url: "https://www.g20.org/rss/defense",
-  },
-  {
-    code: "DEF-INDIA",
-    name: "Indian Ministry of Defence",
-    url: "https://www.mod.gov.in/rss",
-  },
-  {
-    code: "DEF-INDIANARMY",
-    name: "Indian Army",
-    url: "https://indianarmy.nic.in/rss",
-  },
-  {
-    code: "DEF-INDIANNAVY",
-    name: "Indian Navy",
-    url: "https://indiannavy.nic.in/rss",
-  },
-  {
-    code: "DEF-INDIANAF",
-    name: "Indian Air Force",
-    url: "https://indianairforce.nic.in/rss",
-  },
-  {
-    code: "DEF-DRDO",
-    name: "Defence Research and Development Organisation",
-    url: "https://www.drdo.gov.in/rss",
-  },
-  {
-    code: "DEF-BDL",
-    name: "Bharat Dynamics Limited",
-    url: "https://bdl-india.in/rss",
-  },
-  {
-    code: "DEF-BEL",
-    name: "Bharat Electronics Limited",
-    url: "https://www.bel-india.in/rss",
-  },
-  {
-    code: "DEF-HAL",
-    name: "Hindustan Aeronautics Limited",
-    url: "https://www.hal-india.co.in/rss",
-  },
-  {
-    code: "DEF-MAZAGON",
-    name: "Mazagon Dock Shipbuilders",
-    url: "https://www.mazagondock.in/rss",
-  },
-  {
-    code: "DEF-GSL",
-    name: "Garden Reach Shipbuilders & Engineers",
-    url: "https://www.grse.in/rss",
-  },
-  {
-    code: "DEF-LT",
-    name: "Larsen & Toubro Defence",
-    url: "https://www.larsentoubro.com/rss/defence",
-  },
-  {
-    code: "DEF-TATA",
-    name: "Tata Advanced Systems",
-    url: "https://www.tataadvancedsystems.com/rss",
-  },
-  {
-    code: "DEF-REL",
-    name: "Reliance Defence",
-    url: "https://www.reliancedefence.com/rss",
-  },
-  {
-    code: "DEF-MAHINDRA",
-    name: "Mahindra Defence",
-    url: "https://www.mahindradefence.com/rss",
-  },
-  {
-    code: "DEF-ASH",
-    name: "Ashok Leyland Defence",
-    url: "https://www.ashokleyland.com/rss/defence",
-  },
-  {
-    code: "DEF-BEML",
-    name: "BEML Defence",
-    url: "https://www.bemlindia.in/rss/defence",
-  },
-  {
-    code: "DEF-OF",
-    name: "Ordnance Factory Board",
-    url: "https://ofb.gov.in/rss",
   },
   {
     code: "DEF-PAKISTAN",
