@@ -345,6 +345,31 @@ export const newsSources: Source[] = [
     url: "https://api.foxsports.com/v1/rss",
   },
   {
+    code: "SPORT-NFL",
+    name: "NFL News",
+    url: "https://www.nfl.com/rss/xml/gen/rss/news",
+  },
+  {
+    code: "SPORT-PREMIERLEAGUE",
+    name: "Premier League",
+    url: "https://www.premierleague.com/rss.xml",
+  },
+  {
+    code: "SPORT-FIFA",
+    name: "FIFA News",
+    url: "https://www.fifa.com/rss/index.xml",
+  },
+  {
+    code: "SPORT-TENNIS",
+    name: "ATP Tennis",
+    url: "https://www.atptour.com/en/rss/news.xml",
+  },
+  {
+    code: "SPORT-GOLF",
+    name: "PGA Tour",
+    url: "https://www.pgatour.com/rss/news.xml",
+  },
+  {
     code: "SPORT-CRICBUZZ",
     name: "Cricbuzz",
     url: "https://www.cricbuzz.com/rss",
@@ -358,6 +383,31 @@ export const newsSources: Source[] = [
     code: "SPORT-INDIANEXPRESSSPORTS",
     name: "Indian Express Sports",
     url: "https://indianexpress.com/section/sports/feed/",
+  },
+  {
+    code: "SPORT-TOISPORTS",
+    name: "Times of India Sports",
+    url: "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms",
+  },
+  {
+    code: "SPORT-HTSPORTS",
+    name: "Hindustan Times Sports",
+    url: "https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml",
+  },
+  {
+    code: "SPORT-INDIATODAYSPORTS",
+    name: "India Today Sports",
+    url: "https://www.indiatoday.in/rss/1206578",
+  },
+  {
+    code: "SPORT-ZEENEWS",
+    name: "Zee News Sports",
+    url: "https://zeenews.india.com/rss/sports-news.xml",
+  },
+  {
+    code: "SPORT-INDIANSPORTS",
+    name: "Indian Sports News",
+    url: "https://www.indiansportsnews.com/feed/",
   },
   // -------- Technology Feeds --------
   {
@@ -450,6 +500,31 @@ export const newsSources: Source[] = [
     code: "STOCK-ECONOMICTIMES",
     name: "Economic Times Markets",
     url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+  },
+  {
+    code: "STOCK-YAHOOFINANCE",
+    name: "Yahoo Finance",
+    url: "https://finance.yahoo.com/rss/",
+  },
+  {
+    code: "STOCK-INVESTING",
+    name: "Investing.com",
+    url: "https://www.investing.com/rss/news.rss",
+  },
+  {
+    code: "STOCK-MARKETWATCH",
+    name: "MarketWatch",
+    url: "https://feeds.marketwatch.com/marketwatch/marketpulse/",
+  },
+  {
+    code: "STOCK-CNNMONEY",
+    name: "CNN Money",
+    url: "https://rss.cnn.com/rss/money_markets.rss",
+  },
+  {
+    code: "STOCK-SEEKINGALPHA",
+    name: "Seeking Alpha",
+    url: "https://seekingalpha.com/feed.xml",
   },
   // -------- Defense & Military Feeds --------
   // -------- Indian Defense Sources (Priority) --------
