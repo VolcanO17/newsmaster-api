@@ -370,6 +370,31 @@ export const newsSources: Source[] = [
     url: "https://www.pgatour.com/rss/news.xml",
   },
   {
+    code: "SPORT-STARSPORTS",
+    name: "Star Sports",
+    url: "https://www.hotstar.com/rss/sports.xml",
+  },
+  {
+    code: "SPORT-SONYSPORTS",
+    name: "Sony Sports Network",
+    url: "https://www.sonyliv.com/rss/sports.xml",
+  },
+  {
+    code: "SPORT-DDSPORTS",
+    name: "DD Sports",
+    url: "https://www.ddsports.in/rss/news.xml",
+  },
+  {
+    code: "SPORT-AIRTS",
+    name: "All India Radio Sports",
+    url: "https://www.newsonair.com/rss/sports.xml",
+  },
+  {
+    code: "SPORT-INDIANSOCIAL",
+    name: "Indian Social Sports",
+    url: "https://www.indiansocial.in/rss/sports.xml",
+  },
+  {
     code: "SPORT-CRICBUZZ",
     name: "Cricbuzz",
     url: "https://www.cricbuzz.com/rss",
@@ -525,6 +550,36 @@ export const newsSources: Source[] = [
     code: "STOCK-SEEKINGALPHA",
     name: "Seeking Alpha",
     url: "https://seekingalpha.com/feed.xml",
+  },
+  {
+    code: "STOCK-NASDAQ",
+    name: "Nasdaq",
+    url: "https://www.nasdaq.com/feed/rssoutbound?category=Stocks",
+  },
+  {
+    code: "STOCK-NYSE",
+    name: "NYSE",
+    url: "https://www.nyse.com/rss/nyse.xml",
+  },
+  {
+    code: "STOCK-BSE",
+    name: "BSE India",
+    url: "https://www.bseindia.com/rss/feeds/News.xml",
+  },
+  {
+    code: "STOCK-NSE",
+    name: "NSE India",
+    url: "https://www.nseindia.com/rss/latest-news.xml",
+  },
+  {
+    code: "STOCK-ZEEBUSINESS",
+    name: "Zee Business",
+    url: "https://www.zeebiz.com/rss/market-news.xml",
+  },
+  {
+    code: "STOCK-LIVEMINT",
+    name: "Live Mint Markets",
+    url: "https://www.livemint.com/rss/markets",
   },
   // -------- Defense & Military Feeds --------
   // -------- Indian Defense Sources (Priority) --------
