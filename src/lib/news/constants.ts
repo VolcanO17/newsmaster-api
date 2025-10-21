@@ -267,6 +267,190 @@ export const newsSources: Source[] = [
     name: "The Guardian",
     url: "https://www.theguardian.com/world/rss",
   },
+  // -------- Science & Research Feeds --------
+  {
+    code: "SCI-NASA",
+    name: "NASA News",
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+  },
+  {
+    code: "SCI-SCIENCEDAILY",
+    name: "Science Daily",
+    url: "https://www.sciencedaily.com/rss/all.xml",
+  },
+  {
+    code: "SCI-NATURE",
+    name: "Nature News",
+    url: "https://www.nature.com/nature.rss",
+  },
+  {
+    code: "SCI-SCIENCENEWS",
+    name: "Science News",
+    url: "https://www.sciencenews.org/feed",
+  },
+  {
+    code: "SCI-SCIENCEMAG",
+    name: "Science Magazine",
+    url: "https://www.sciencemag.org/rss/news_current.xml",
+  },
+  {
+    code: "SCI-NEWSCIENTIST",
+    name: "New Scientist",
+    url: "https://www.newscientist.com/feed/home/",
+  },
+  {
+    code: "SCI-PHYSORG",
+    name: "Phys.org",
+    url: "https://phys.org/rss-feed/",
+  },
+  {
+    code: "SCI-LIVESCIENCE",
+    name: "Live Science",
+    url: "https://www.livescience.com/feeds/all",
+  },
+  {
+    code: "SCI-SPACE",
+    name: "Space.com",
+    url: "https://www.space.com/feeds/all",
+  },
+  {
+    code: "SCI-ISRO",
+    name: "ISRO News",
+    url: "https://www.isro.gov.in/rss",
+  },
+  // -------- Sports Feeds --------
+  {
+    code: "SPORT-ESPN",
+    name: "ESPN",
+    url: "https://www.espn.com/espn/rss/news",
+  },
+  {
+    code: "SPORT-BBCSPORT",
+    name: "BBC Sport",
+    url: "http://feeds.bbci.co.uk/sport/rss.xml",
+  },
+  {
+    code: "SPORT-THEATHLETIC",
+    name: "The Athletic",
+    url: "https://theathletic.com/feed/",
+  },
+  {
+    code: "SPORT-SKYSPORTS",
+    name: "Sky Sports",
+    url: "https://www.skysports.com/rss/12040",
+  },
+  {
+    code: "SPORT-FOXSPORTS",
+    name: "Fox Sports",
+    url: "https://api.foxsports.com/v1/rss",
+  },
+  {
+    code: "SPORT-CRICBUZZ",
+    name: "Cricbuzz",
+    url: "https://www.cricbuzz.com/rss",
+  },
+  {
+    code: "SPORT-ESPNCRIC",
+    name: "ESPN Cricket",
+    url: "https://www.espn.com/espn/rss/news",
+  },
+  {
+    code: "SPORT-INDIANEXPRESSSPORTS",
+    name: "Indian Express Sports",
+    url: "https://indianexpress.com/section/sports/feed/",
+  },
+  // -------- Technology Feeds --------
+  {
+    code: "TECH-TECHCRUNCH",
+    name: "TechCrunch",
+    url: "https://techcrunch.com/feed/",
+  },
+  {
+    code: "TECH-ARSTECHNICA",
+    name: "Ars Technica",
+    url: "https://feeds.arstechnica.com/arstechnica/index",
+  },
+  {
+    code: "TECH-THENEXTWEB",
+    name: "The Next Web",
+    url: "https://thenextweb.com/feed/",
+  },
+  {
+    code: "TECH-ENGADGET",
+    name: "Engadget",
+    url: "https://www.engadget.com/rss.xml",
+  },
+  {
+    code: "TECH-GIZMODO",
+    name: "Gizmodo",
+    url: "https://gizmodo.com/rss",
+  },
+  {
+    code: "TECH-TECHREPUBLIC",
+    name: "TechRepublic",
+    url: "https://www.techrepublic.com/rssfeeds/articles/",
+  },
+  {
+    code: "TECH-ZDNET",
+    name: "ZDNet",
+    url: "https://www.zdnet.com/news/rss.xml",
+  },
+  {
+    code: "TECH-CNET",
+    name: "CNET",
+    url: "https://www.cnet.com/rss/news/",
+  },
+  {
+    code: "TECH-INDIANEXPRESS TECH",
+    name: "Indian Express Technology",
+    url: "https://indianexpress.com/section/technology/feed/",
+  },
+  // -------- Stock Market & Finance Feeds --------
+  {
+    code: "STOCK-BLOOMBERG",
+    name: "Bloomberg Markets",
+    url: "https://feeds.bloomberg.com/markets/news.rss",
+  },
+  {
+    code: "STOCK-REUTERSFINANCE",
+    name: "Reuters Finance",
+    url: "https://feeds.reuters.com/reuters/businessNews",
+  },
+  {
+    code: "STOCK-CNBC",
+    name: "CNBC",
+    url: "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+  },
+  {
+    code: "STOCK-FORBES",
+    name: "Forbes Finance",
+    url: "https://www.forbes.com/money/feed/",
+  },
+  {
+    code: "STOCK-WSJ",
+    name: "Wall Street Journal Markets",
+    url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+  },
+  {
+    code: "STOCK-FT",
+    name: "Financial Times",
+    url: "https://www.ft.com/rss/home/uk",
+  },
+  {
+    code: "STOCK-BUSINESSSTANDARD",
+    name: "Business Standard Markets",
+    url: "https://www.business-standard.com/rss/markets-106.rss",
+  },
+  {
+    code: "STOCK-MONEYCONTROL",
+    name: "Moneycontrol",
+    url: "https://www.moneycontrol.com/rss/latestnews.xml",
+  },
+  {
+    code: "STOCK-ECONOMICTIMES",
+    name: "Economic Times Markets",
+    url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+  },
   // -------- Defense & Military Feeds --------
   // -------- Indian Defense Sources (Priority) --------
   {
