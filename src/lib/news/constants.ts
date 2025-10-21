@@ -74,7 +74,7 @@ export const newsSources: Source[] = [
   {
     code: "US-CNN",
     name: "CNN News",
-    url: "http://rss.cnn.com/rss/cnn_topstories.rss",
+    url: "http://rss.cnn.com/rss/cnn_latest.rss",
   },
   {
     code: "US-HP",
@@ -95,6 +95,11 @@ export const newsSources: Source[] = [
     code: "US-P",
     name: "Politico",
     url: "http://www.politico.com/rss/politicopicks.xml",
+  },
+  {
+    code: "US-WP",
+    name: "Washington Post",
+    url: "https://feeds.washingtonpost.com/rss/world",
   },
   {
     code: "US-LAT",
