@@ -313,33 +313,3 @@ export const getCategorizedNews = async (category: string): Promise<Article[]> =
   // Return filtered articles or fallback to general articles if none match
   return sortedArticles.length > 0 ? sortedArticles.slice(0, 20) : allArticles.slice(0, 20);
 };
-
-export const getCountryNews = async (countryCode: string): Promise<Article[]> => {
-  const { validateCountry } = await import('./utils');
-  const { countryMappings } = await import('./constants');
-
-  const validatedCountry = validateCountry(countryCode);
-  const relevantSources = countryMappings[validatedCountry] || [];
-  const allArticles: Article[] = [];
-
-  // Fetch from multiple relevant sources for the country
-  for (const sourceCode of relevantSources) {
-    const source = newsSources.find(src => src.code === sourceCode);
-    if (source) {
-      try {
-        const articles = await fetchNewsFromRSS(source);
-        allArticles.push(...articles);
-        if (allArticles.length >= 30) break; // Limit total articles
-      } catch (error: any) {
-        console.log(`Failed to fetch from ${source.name}: ${error.message}`);
-      }
-    }
-  }
-
-  // Sort by publication date (newest first)
-  const sortedArticles = allArticles.sort((a, b) =>
-    new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
-  );
-
-  return sortedArticles.slice(0, 20);
-};
