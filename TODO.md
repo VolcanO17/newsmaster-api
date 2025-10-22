@@ -18,6 +18,14 @@
 - [x] Test categorical news (technology, defense, science, etc.) - SUCCESS: Category filtering implemented and tested
 - [x] Ensure real-time updates work with app caching - SUCCESS: revalidate=0 set
 
+## Phase 4: Implement Country-Specific News Fetching
+- [ ] Add countryMappings object in constants.ts mapping country codes to arrays of source codes (~10 per country)
+- [ ] Add validateCountry function in utils.ts to validate country inputs
+- [ ] Implement getCountryNews function in newsScraper.ts to fetch news from mapped sources
+- [ ] Export getCountryNews from newsScraper.ts
+- [ ] Test country news API endpoint
+- [ ] Ensure frontend correctly calls the API when a country is selected
+
 ## Implementation Notes
 - All changes must stay within assets/data/next-news-api-master folder
 - Use similar image scraping logic as BBC API

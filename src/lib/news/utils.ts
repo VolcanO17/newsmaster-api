@@ -56,6 +56,22 @@ export const articleFromItem = (itemElement: Cheerio<AnyNode>) => {
   return baseArticle;
 };
 
+export const validateCountry = (countryCode: string | null) => {
+  if (!countryCode) {
+    console.log(`Country code was not provided`);
+    throw new BadRequest("Country code is required");
+  }
+
+  const upperCountryCode = countryCode.toUpperCase();
+  const validCountries = Array.from(new Set(newsSources.map(src => src.code.split('-')[0])));
+  if (!validCountries.includes(upperCountryCode)) {
+    console.log(`Invalid country code ${countryCode}`);
+    throw new BadRequest("Invalid country code");
+  }
+
+  return upperCountryCode;
+};
+
 export const validateCategory = (categoryName: string | null) => {
   if (!categoryName) {
     console.log(`Category name was not provided`);
